@@ -1,0 +1,29 @@
+git status
+git init
+git add --a
+git add .
+git commit -m " "
+git rm third.txt
+git mv first.txt first_renamed.txt
+git diff
+git commit -a -m "direct commit"
+git log
+git log -p
+git log -p -n
+git log --stat
+git log --pretty=oneline
+rm -rf .git
+git log --since=2.days (can be .months, .weeks,.years)
+git commit --amend
+git restore --staged <filename>
+git checkout -- <filename>
+git checkout - f
+git restore <filename>
+git push -u origin master
+
+git congif --global alias.unstage 'restore --staged--'
+git config --global alias. 
+
+
+git checkout -b develop
+git checkout master
